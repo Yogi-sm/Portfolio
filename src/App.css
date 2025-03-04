@@ -1,0 +1,445 @@
+/* General visibility for elements */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.flexTwoWaycentreDiv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexOneWayCentreDiv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: #212121;
+  width: 100vw;
+  height: 4rem;
+}
+
+hr {
+  border-color: #696866;
+  margin-top: 30px; /* Corrected to valid number */
+  margin-bottom: 30px; /* Corrected to valid number */
+}
+
+.line {
+  background-color: #696866;
+}
+
+.atext {
+  text-decoration: none;
+}
+
+.poppinsFontlime {
+  font-family: 'Poppins', 'Gill Sans';
+  color: #96d6b3;
+}
+
+.poppinsFontgrey {
+  font-family: 'Poppins', 'Gill Sans';
+  color: #7a7a7a;
+}
+
+.poppinsFontwhite {
+  font-family: 'Poppins', 'Gill Sans';
+  color: white;
+}
+
+.headtext {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.image {
+  width: 40%;
+  text-align: center;
+}
+
+.infotext {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.info {
+  width: 35%;
+}
+
+img {
+  width: 50%;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(22, 21, 21);
+  border: 0px solid #0a0a0a;
+  border-radius: 4px;
+  justify-content: space-between;
+  margin-right: 8px;
+}
+
+.logoimg {
+  height: 24px;
+  width: 24px;
+}
+
+.text {
+  display: flex;
+  gap: 12px;
+}
+
+.resume {
+  margin-top: 30px;
+  height: 48px;
+  width: 136px;
+  border-radius: 4px;
+  border: 2px solid #ffffff;
+  border-color: #253e30;
+  font-size: 16px;
+  font-weight: medium;
+  background-color: #0a0a0a;
+}
+
+.resume:hover {
+  background-color: #253e30;
+  border: 2px solid #253e30; /* Added border on hover */
+}
+
+.logo:hover {
+  background-color: #253e30;
+}
+
+.stackcardbox {
+  gap: 32px;
+  width: 50%;
+}
+
+.stackCard {
+  width: 260px;
+  background-color: #212121;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 8px; /* Fixed the border-radius */
+}
+
+.stackText {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.stackcardImg {
+  height: 180px;
+  width: 180px;
+}
+
+.StackcardInfotext {
+  text-align: left;
+  font-size: 14px;
+}
+
+.Stackcardheadtext {
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+}
+
+.shadowt {
+  transition: box-shadow 0.45s ease-in;
+}
+
+.shadow:hover {
+  box-shadow: 0px 0px 10px 0.5px rgb(150, 214, 179);
+}
+
+.stackDiv {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoimg {
+  height: 24px;
+  width: 24px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skillscardbox {
+  gap: 10px;
+}
+
+.skillCard {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border-radius: 8px;
+  padding-left: 12px;
+  padding-right: 32px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  /* background-color: #1c1919; */
+}
+
+.skillsicon {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #253e30;
+  /* border-radius: 50%; */
+  /* background-color: #858582; */
+}
+
+.skilltext {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.stackText {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.CompanyText {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.companyPraiseText {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Companyinfo {
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+
+.Experience {
+  gap: 24px;
+}
+
+.ExperienceContainer {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 260px;
+  background-color: #1c1919;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.expText {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.roleText {
+  text-align: center;
+  font-weight: normal;
+  margin-top: -20px;
+  font-size: 14px;
+}
+
+.companyLogo {
+  height: 122px;
+  width: 146px;
+  border-radius: 4px;
+  align-self: center;
+}
+
+.startDate {
+  text-align: left;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.MailBox {
+  gap: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.MailForm {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 20px;
+}
+
+.contact {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.mailinfo {
+  align-self: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: -10px;
+}
+
+.inputcontainer {
+  position: relative;
+  /* margin-bottom: 24px; */
+}
+
+button {
+  color: #96d6b3;
+  font-family: 'Poppins', 'Gill Sans';
+  font-size: 16px;
+  border: 1px solid #96d6b3;
+  background-color: #0a0a0a;
+  text-align: center;
+  border-radius: 4px;
+  height: 48px;
+  width: 100%;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: #597261;
+}
+
+.fieldText {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  pointer-events: none;
+  font-size: 20px;
+  color: #696866;
+  font-family: 'Poppins', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.emailInput {
+  border: 1px solid #696866;
+  background-color: #0a0a0a;
+  z-index: 2;
+  outline: none;
+  width: 100%;
+  height: 56px;
+  border-radius: 4px;
+  font-size: 16px;
+  padding-left: 10px;
+  color: whitesmoke;
+  scrollbar-width: none;
+  transition: border-color 0.2s ease-in;
+  margin-bottom: 24px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Hover effect for emailInput */
+.emailInput:hover {
+  border-color: #96d6b3;
+}
+
+/* Focus effect for emailInput */
+.emailInput:focus {
+  outline: none;
+
+}
+.emailInput:focus + .fieldText,.emailInput:not(:placeholder-shown) + .fieldText{
+  color: #96d6b3;
+  padding-left: 4px;
+  padding-right: 4px;
+  left: 8px;
+  top: -8px;
+  font-size: 14px;
+  background-color: #0a0a0a;
+}
+
+
+/* Form styling */
+form {
+  width: 30%;
+}
+
+.messageField {
+  padding-top: 10px;
+  height: 124px;
+  border: 1px solid #696866;
+  background-color: #0a0a0a;
+  border-radius: 4px;
+}
+
+/* Corrected test selector and added missing semicolon */
+.test {
+  border-color: red;
+}
+
+.footer {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.footText {
+  font-size: 14px;
+}
+
+.toastContainer {
+  color: #96d6b3;
+  text-align: center;
+  position: fixed;
+  height: 48px;
+  top: 90%;
+  left: 35%;
+  width: 30%;
+  background-color: black; /* Fixed the background-color property */
+  border: 1px solid red;
+  border-radius: 16px;
+}
+
+/* Visibility changes for appear and hide */
+.hide {
+  visibility: hidden;
+}
+
+.appear {
+  visibility: visible;
+}
+
+
+/* Media query for screen with max width of 768px */
+@media only screen and (max-width: 768px) {
+  .info {
+    width: 80%; /* Correct width */
+    text-align: justify;
+    justify-content: space-between;
+  }
+
+  .stackText {
+    font-size: 16px;
+  }
+
+  .companyText {
+    font-size: 18px; /* Adjusted font-size */
+  }
+
+  .companypraiseText {
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
