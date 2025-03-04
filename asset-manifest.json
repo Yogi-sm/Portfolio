@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ac5bfba8.css",
+    "main.js": "/portfolio/static/js/main.8a43a9f3.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Maui.jpeg": "/portfolio/static/media/Maui.10415744af63cfffdcf2.jpeg",
+    "static/media/Trimble-Logo.jpeg": "/portfolio/static/media/Trimble-Logo.8ab6678a1298ea6de100.jpeg",
+    "static/media/MobileApp.jpeg": "/portfolio/static/media/MobileApp.930ebe231a5c6c32d811.jpeg",
+    "static/media/Website.jpeg": "/portfolio/static/media/Website.978f7af1bf77efe38f1e.jpeg",
+    "static/media/aspnet-featured.png": "/portfolio/static/media/aspnet-featured.6873d6adcfd4eb1d2513.png",
+    "static/media/LLM.jpg": "/portfolio/static/media/LLM.08fc8f8f0b3f39d138f0.jpg",
+    "static/media/YogiProfile.jpeg": "/portfolio/static/media/YogiProfile.25f4fd69c4f0a21b76ad.jpeg",
+    "static/media/JavaScript-logo.png": "/portfolio/static/media/JavaScript-logo.928da83081e073adaff3.png",
+    "static/media/github.jpeg": "/portfolio/static/media/github.90730fc2f51c998b94dd.jpeg",
+    "static/media/email.jpeg": "/portfolio/static/media/email.1f79d36a24ae98fa13da.jpeg",
+    "static/media/XSL.jpg": "/portfolio/static/media/XSL.c0934cbba1accc56824e.jpg",
+    "static/media/CSharp.png": "/portfolio/static/media/CSharp.3694459d304e71632b6e.png",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolio/index.html",
+    "main.ac5bfba8.css.map": "/portfolio/static/css/main.ac5bfba8.css.map",
+    "main.8a43a9f3.js.map": "/portfolio/static/js/main.8a43a9f3.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac5bfba8.css",
+    "static/js/main.8a43a9f3.js"
+  ]
+}
