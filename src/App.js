@@ -200,12 +200,12 @@ return(
 
   <div className="flexTwoWayCentreDiv MailBox">
       <div className="MailInfoBox">
-        <p className="poppinsFontwhite contact">Contact Me</p>
-        <p className="poppinsFontwhite mailinfo">Connect with me to bring your</p>
-        <p className="poppinsFontwhite mailinfo">
+        <p className="poppinsFontwhite contact">For Contact</p>
+        <p className="poppinsFontwhite mailinfo">Connect me for queries</p>
+        {/*<p className="poppinsFontwhite mailinfo">
           <span style={{ color: "#e8d780" }}>Dream project</span> to life. Shoot me an 
           <span style={{ color: "#80ed9a" }}> email now</span>
-        </p>
+        </p>*/}
       </div> 
       <div className="MailForm">
         {inputList.map((value, index) => (
