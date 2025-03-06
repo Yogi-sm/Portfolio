@@ -42,7 +42,7 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
-  "homepage": "https://Yogi-sm.github.io/portfolio",
+  "homepage": "https://Yogi-sm.github.io/Portfolio",
   "predeploy":"npm run build"
   
 
