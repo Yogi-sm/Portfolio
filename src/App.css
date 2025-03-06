@@ -15,7 +15,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .flexOneWayCentreDiv {
   display: flex;
   justify-content: center;
@@ -37,7 +36,10 @@ hr {
 .line {
   background-color: #696866;
 }
-
+.headtext{
+  font-family: 'Poppins', 'Gill Sans';
+  color: white;
+}
 .atext {
   text-decoration: none;
 }
@@ -101,9 +103,9 @@ img {
 }
 
 .resume {
-  margin-top: 30px;
-  height: 48px;
-  width: 136px;
+  /* margin-top: 30px; */
+  height: 32%;
+  width: 20%;
   border-radius: 4px;
   border: 2px solid #ffffff;
   border-color: #253e30;
@@ -227,6 +229,9 @@ img {
 }
 
 .Companyinfo {
+  gap: 30px;;
+  display: flex;
+  flex-direction: column;
   margin-top: 40px;
   margin-bottom: 32px;
 }
@@ -420,7 +425,11 @@ form {
 .appear {
   visibility: visible;
 }
-
+.text{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 /* Media query for screen with max width of 768px */
 @media only screen and (max-width: 768px) {
@@ -433,6 +442,7 @@ form {
   .stackText {
     font-size: 16px;
   }
+  
 
   .companyText {
     font-size: 18px; /* Adjusted font-size */
@@ -441,5 +451,45 @@ form {
   .companypraiseText {
     font-size: 12px;
     font-weight: bold;
+  }
+
+  .img{
+    width: 70%;
+    margin-left: 30%;
+  }
+  .skillCard{
+    width: 20%;
+  }
+  .skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Companyinfo{
+    width: 90%;
+    margin-left: 5%;
+  } 
+  .MailBox{
+    flex-direction: column;
+    align-items:center;
+    gap: 30px;
+  }
+
+  .inputcontainer{
+    width: 100%;
+  }
+  .MailForm{
+    width: 80%;
+  }
+  .text{
+    display: flex;
+    flex-direction: column;
+  }
+  .headtext{
+    font-size: 16px;
+  }
+  .resume{
+    width: 40%;
   }
 }

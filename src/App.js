@@ -11,7 +11,7 @@ import InputBox from './Components/InputCon.jsx';
 import { useState } from 'react';
 import ToastBox from './Components/toastContainer.jsx';
 import profileImg from './StackImages/YogiProfile.jpeg';
-//import samplePdf from './asset/ResumeDuplicate.pdf';
+import samplePdf from './asset/Yogi_S_Resume.pdf';
 import Frame from './Logos/Frame.jpeg';
 import email from './Logos/email.jpeg';
 import Git from './Logos/github.jpeg';
@@ -109,16 +109,16 @@ return(
     <div className ="flexTwoWaycentreDiv header">
       <p className="poppinsFontline headtext">Yogi S</p>
     </div>
-    <div className="flexTwoWaycentreDiv container">
+    <div className="flexTwoWaycentreDiv">
       <div className="img">
         <img src={profileImg} alt="profileImage"/>
       </div>
 
         <div className="info">
             <p className="poppinsFontlime headtext">Software Developement Engineer I</p>
-            <p className="poppinsFontgrey infotext">Software Development Engineer-I with 1.5+ years of experience in building and maintaining scalable applications. Strong hands-on experience in mobile app development using .NET MAUI and backend development using C# and ASP.NET. Passionate about learning new technologies, solving complex problems, and contributing to innovative projects in GenAI, automation, and cloud platforms.</p>
+            <p className="poppinsFontgrey infotext">Software Development Engineer-I with 1.9 years of experience in building and maintaining scalable applications. Strong hands-on experience in mobile app development using .NET MAUI and backend development using C# and ASP.NET. Passionate about learning new technologies, solving complex problems, and contributing to innovative projects in GenAI, automation, and cloud platforms.</p>
 
-            {/* <div className="logobox">
+            {/* <div className="logobox">s
               {images.map((name, index) => (
                 <button key={index} className="logo">
                   <img className="logoimg" src={name} alt={`${name.split('.')[0]} Logo`} />
@@ -128,13 +128,13 @@ return(
 
             <div className="text">
               <pre className="poppinsFontlime infotext">
-                <span style={{ fontSize: "x-large" }}>1.5+ Years of Experience</span>
+                <span style={{ fontSize: "large" }}>1.9 Years of Experience</span>
               </pre>
-             {/* <button className="poppinsFontlime resume">
+             <button className="poppinsFontlime resume">
                 <a className="poppinsfontlime atext" href={samplePdf} download>
                   Download CV
                 </a>
-              </button>  */}
+              </button> 
             </div>
           </div>
 
@@ -160,7 +160,7 @@ return(
 
   <hr />
 
-  <div className="skills">
+  <div className="skills ">
     <p className="poppinsFontwhite stackText">Skills & Experience</p>
     
     <div className="flexOneWayCentreDiv skillscardbox">
@@ -172,15 +172,14 @@ return(
         />
       ))}
     </div>
-
-    <div className="Companyinfo">
-      <pre className="poppinsFontwhite companyPraiseText">
-        The company that have been instrumental in cultivating my skills and molding me into an expert in the above-mentioned areas.
-      </pre>
-    </div>
   </div>
+  <hr />
 
-  <div className="flexTwoWaycentreDiv Experience">
+  <div className="Companyinfo flexTwoWaycentreDiv">
+      <p className="poppinsFontwhite companyPraiseText">
+        The company that have been instrumental in cultivating my skills and molding me into an expert in the above-mentioned areas.
+      </p>
+      <div className="flexTwoWaycentreDiv Experience">
     {
       experience.map((value,index) =>{
         return (
@@ -194,6 +193,8 @@ return(
       )
     }
   </div>
+    </div>
+ 
 
 
   <hr />
