@@ -188,7 +188,8 @@ return(
           imgSrc={value.imgSrc}
           role={value.role}
           startDate={value.startDate}
-          endDate={value.endDate} />)
+          endDate={value.endDate}
+          company = {value.company} />)
       }
       )
     }
