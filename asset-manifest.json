@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ac5bfba8.css",
-    "main.js": "/Portfolio/static/js/main.7359a948.js",
+    "main.css": "/Portfolio/static/css/main.2718bd09.css",
+    "main.js": "/Portfolio/static/js/main.532cdd20.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/Maui.jpeg": "/Portfolio/static/media/Maui.10415744af63cfffdcf2.jpeg",
+    "static/media/Yogi_S_Resume.pdf": "/Portfolio/static/media/Yogi_S_Resume.a677bb32f742aec0e641.pdf",
     "static/media/Trimble-Logo.jpeg": "/Portfolio/static/media/Trimble-Logo.8ab6678a1298ea6de100.jpeg",
     "static/media/MobileApp.jpeg": "/Portfolio/static/media/MobileApp.930ebe231a5c6c32d811.jpeg",
     "static/media/Website.jpeg": "/Portfolio/static/media/Website.978f7af1bf77efe38f1e.jpeg",
@@ -17,12 +18,12 @@
     "static/media/CSharp.png": "/Portfolio/static/media/CSharp.3694459d304e71632b6e.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
-    "main.ac5bfba8.css.map": "/Portfolio/static/css/main.ac5bfba8.css.map",
-    "main.7359a948.js.map": "/Portfolio/static/js/main.7359a948.js.map",
+    "main.2718bd09.css.map": "/Portfolio/static/css/main.2718bd09.css.map",
+    "main.532cdd20.js.map": "/Portfolio/static/js/main.532cdd20.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac5bfba8.css",
-    "static/js/main.7359a948.js"
+    "static/css/main.2718bd09.css",
+    "static/js/main.532cdd20.js"
   ]
 }
